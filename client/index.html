@@ -1,30 +1,30 @@
 
 <html ng-app='myApp'>
-	<head>
-		<title>Tomo Store</title>
-		<link rel='stylesheet' href='./static/style.css'>
-		<!-- _________________Angular_____________________________________________ -->
-		<script type="text/javascript" src="angular.js"></script>
-		<script type="text/javascript" src="angular-route.js"></script>
-		<script type="text/javascript" src="angular-messages.js"></script>
-		<!-- _________________factories________________________________________ -->
-		<script type="text/javascript" src="./js/factories/customerFactory.js"></script>
-		<script type="text/javascript" src="./js/factories/orderFactory.js"></script>
-		<script type="text/javascript" src="./js/factories/productFactory.js"></script>
-		<!-- _________________contorllers________________________________ -->
-		<script type="text/javascript" src="./js/controllers/customersController.js"></script>
-		<script type="text/javascript" src="./js/controllers/productsController.js"></script>
-		<script type="text/javascript" src="./js/controllers/ordersController.js"></script>
-		<script type="text/javascript" src="./js/controllers/dashboardsController.js"></script>
-		<script type="text/javascript" src="./js/config/routes.js"></script>
-		<script>
+  <head>
+    <title>Tomo Store</title>
+    <link rel='stylesheet' href='./static/style.css'>
+    <!-- _________________Angular_____________________________________________ -->
+    <script type="text/javascript" src="angular.js"></script>
+    <script type="text/javascript" src="angular-route.js"></script>
+    <script type="text/javascript" src="angular-messages.js"></script>
+    <!-- _________________factories________________________________________ -->
+    <script type="text/javascript" src="./js/factories/customerFactory.js"></script>
+    <script type="text/javascript" src="./js/factories/orderFactory.js"></script>
+    <script type="text/javascript" src="./js/factories/productFactory.js"></script>
+    <!-- _________________contorllers________________________________ -->
+    <script type="text/javascript" src="./js/controllers/customersController.js"></script>
+    <script type="text/javascript" src="./js/controllers/productsController.js"></script>
+    <script type="text/javascript" src="./js/controllers/ordersController.js"></script>
+    <script type="text/javascript" src="./js/controllers/dashboardsController.js"></script>
+    <script type="text/javascript" src="./js/config/routes.js"></script>
+    <script>
 
-		</script>
-	</head>
-	<body>
-		<div id='container'>
-			<a href='#/dashboard'>Dashboard</a> | <a href='#/products'>Products</a> | <a href='#/orders'>Orders</a> | <a href='#/customers'>Customers</a>
-			<div ng-view=''></div>
-		</div>
-	</body>
+    </script>
+  </head>
+  <body>
+    <div id='container'>
+      <a href='#/dashboard'>Dashboard</a> | <a href='#/products'>Products</a> | <a href='#/orders'>Orders</a> | <a href='#/customers'>Customers</a>
+      <div ng-view=''></div>
+    </div>
+  </body>
 </html>

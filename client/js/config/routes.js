@@ -2,11 +2,11 @@
 
 myApp.config(function($routeProvider){
 
-	 $routeProvider
-	 		.when('/', {
-	 			templateUrl: './../static/partials/dashboard.html',
-	 			controller: "dashboardsController"
-	 		})
+   $routeProvider
+       .when('/', {
+         templateUrl: './../static/partials/dashboard.html',
+         controller: "dashboardsController"
+       })
       .when('/customers',{
           templateUrl: './../static/partials/customers.html',
           controller: "customersController"
