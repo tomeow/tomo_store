@@ -2,7 +2,6 @@ var customers = require('./../controllers/customers.js');
 var products = require('./../controllers/products.js');
 var orders = require('./../controllers/orders.js');
 
-console.log("alalalalalala")
 module.exports = function(app){
 	app.get('/customers', function(req, res){
 		customers.show(req, res);
